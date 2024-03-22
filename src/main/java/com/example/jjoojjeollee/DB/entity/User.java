@@ -1,7 +1,9 @@
 package com.example.jjoojjeollee.DB.entity;
 
-import java.util.Date;
+import lombok.Data;
 
+import java.util.Date;
+@Data
 public class User {
     String id;
     String password;
