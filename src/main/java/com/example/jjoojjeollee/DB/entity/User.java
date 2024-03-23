@@ -15,4 +15,15 @@ public class User {
     String userName;
     Date lastLoginDt;
 
+    public User(){
+        id = "TEST";
+        password = "1234";
+        accountWithdrawed = 'Y';
+        accountLocked = 'Y';
+        userName = "TESTER";
+    }
+    public String getPassword(){
+        return password;
+    }
+
 }
